@@ -12,6 +12,6 @@ while True:
     tmp_value = pyperclip.paste()
     if tmp_value != recent_value:
         recent_value = tmp_value
-        success = execute_js('./clipclient/pushclip.js')
+        success = execute_js('./pushclip.js')
     time.sleep(0.1)
 
